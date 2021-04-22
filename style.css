@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-color: burlywood;
+    text-decoration: gold;
+    font-weight: bold;
+
+}
+
+a {
+    color: gold;
+    font-size: 60px;
+}
+
+* {
+    border: solid;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.header {
+
+    background-color: rgb(53, 186, 219);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.grid {
+
+    background: linear-gradient(red,orange,yellow,green,rgb(94, 94, 255),indigo,violet);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
